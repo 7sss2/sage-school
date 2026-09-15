@@ -5,7 +5,7 @@
     header.classList.toggle('scrolled', window.scrollY > 10);
     if (heroPhoto) {
       const y = Math.min(window.scrollY * 0.18, 60);
-      heroPhoto.style.backgroundPosition = `center calc(42% + ${y}px)`;
+      heroPhoto.style.backgroundPosition = `center calc(12% + ${y}px)`;
     }
   });
 
