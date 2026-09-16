@@ -9,6 +9,28 @@
     }
   });
 
+  // decorative owl motifs — gentle parallax drift relative to viewport center
+  const owlEls = document.querySelectorAll('.owl-deco');
+  if (owlEls.length) {
+    let owlTicking = false;
+    const updateOwls = () => {
+      const vh = window.innerHeight;
+      owlEls.forEach(el => {
+        const speed = parseFloat(el.dataset.speed) || 0.1;
+        const r = el.getBoundingClientRect();
+        const center = r.top + r.height / 2;
+        const delta = (vh / 2 - center) * speed;
+        el.style.transform = `translateY(${delta.toFixed(1)}px)`;
+      });
+      owlTicking = false;
+    };
+    window.addEventListener('scroll', () => {
+      if (!owlTicking) { requestAnimationFrame(updateOwls); owlTicking = true; }
+    }, { passive: true });
+    window.addEventListener('resize', updateOwls);
+    updateOwls();
+  }
+
   // reveal on scroll
   const revealEls = document.querySelectorAll('.reveal, .reveal-l, .reveal-r');
   const io = new IntersectionObserver((entries) => {
