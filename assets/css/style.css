@@ -108,7 +108,7 @@
   @keyframes cue{0%{top:-20px;} 100%{top:34px;}}
 
   /* ===== Stats ===== */
-  .stats{border-bottom:1px solid var(--line);}
+  .stats{background:var(--bg2); border-bottom:1px solid var(--line);}
   .stats-inner{max-width:1200px; margin:0 auto; padding:56px 32px; display:grid; grid-template-columns:repeat(4,1fr);}
   .stat{padding:0 26px; border-left:1px solid var(--line); transition:transform .3s ease;}
   .stat:hover{transform:translateY(-4px);}
