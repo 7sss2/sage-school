@@ -28,10 +28,10 @@
 
   /* ===== Decorative owl motif (background layer, parallax via JS) ===== */
   .owl-deco{position:absolute; display:block; pointer-events:none; will-change:transform;}
-  .owl-deco svg{display:block; width:100%; height:auto;}
-  .owl-green{color:var(--green-deep); opacity:.07;}
-  .owl-cream{color:var(--cream); opacity:.13;}
-  .owl-brass{color:var(--gold); opacity:.16;}
+  .owl-deco img{display:block; width:100%; height:auto;}
+  .owl-green{opacity:.08;}
+  .owl-cream{opacity:.15;}
+  .owl-brass{opacity:.18;}
   @media (max-width:600px){ .owl-deco{display:none;} }
 
   /* ===== reveal-on-scroll ===== */
