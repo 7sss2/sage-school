@@ -11,7 +11,7 @@
     --cream:#FBF8F1;
     --muted:rgba(28,35,33,0.62);
     --line:rgba(28,35,33,0.12);
-    --hero-photo-url:url("../img/img-jpg-4.jpg");
+    --hero-photo-url:url("../img/img-jpg-4.webp");
   }
   *{box-sizing:border-box; margin:0; padding:0;}
   html{scroll-behavior:smooth;}

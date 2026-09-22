@@ -142,15 +142,15 @@
 
   // moments carousel — built from real event photos, referenced (not duplicated) by URL
   const momentImages = [
-    { src: 'assets/img/img-jpg-5.jpg', cap: 'Знакомство с Sage School' },
-    { src: 'assets/img/img-jpg-6.jpg', cap: 'Шахматы с талисманом школы' },
-    { src: 'assets/img/img-jpg-7.jpg', cap: 'Тёплая атмосфера праздника' },
-    { src: 'assets/img/img-jpg-8.jpg', cap: 'Активности на свежем воздухе' },
-    { src: 'assets/img/img-jpg-9.jpg', cap: 'Национальный танец' },
-    { src: 'assets/img/img-jpg-10.jpg', cap: 'Общий флешмоб с ребятами' },
-    { src: 'assets/img/img-jpg-11.jpg', cap: 'Момент, который все ловят на телефон' },
-    { src: 'assets/img/img-jpg-12.jpg', cap: 'Семейный турнир по шахматам' },
-    { src: 'assets/img/img-jpg-13.jpg', cap: 'Гости праздника' },
+    { src: 'assets/img/img-jpg-5.webp', cap: 'Знакомство с Sage School' },
+    { src: 'assets/img/img-jpg-6.webp', cap: 'Шахматы с талисманом школы' },
+    { src: 'assets/img/img-jpg-7.webp', cap: 'Тёплая атмосфера праздника' },
+    { src: 'assets/img/img-jpg-8.webp', cap: 'Активности на свежем воздухе' },
+    { src: 'assets/img/img-jpg-9.webp', cap: 'Национальный танец' },
+    { src: 'assets/img/img-jpg-10.webp', cap: 'Общий флешмоб с ребятами' },
+    { src: 'assets/img/img-jpg-11.webp', cap: 'Момент, который все ловят на телефон' },
+    { src: 'assets/img/img-jpg-12.webp', cap: 'Семейный турнир по шахматам' },
+    { src: 'assets/img/img-jpg-13.webp', cap: 'Гости праздника' },
   ];
   const track = document.getElementById('marqueeTrack');
   if (track) {
