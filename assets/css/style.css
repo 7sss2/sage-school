@@ -308,7 +308,7 @@
   .methodology-head span{font-size:13px; letter-spacing:0.14em; color:var(--gold); font-weight:700;}
   .methodology-head h2{font-size:32px; font-weight:400; margin-top:16px; line-height:1.24; color:var(--green-deep);}
   .methodology-head p{margin-top:16px; font-size:15px; color:var(--muted); line-height:1.6;}
-  .method-tabs{display:grid; grid-template-columns:0.85fr 1.15fr; gap:0; border:1px solid var(--line); border-radius:18px; overflow:hidden; min-height:320px; box-shadow:0 26px 54px -32px rgba(28,35,33,0.3);}
+  .method-tabs{display:grid; grid-template-columns:0.85fr 1.15fr; gap:0; border:1px solid var(--line); border-radius:18px; overflow:hidden; min-height:360px; box-shadow:0 26px 54px -32px rgba(28,35,33,0.3);}
   .method-nav{background:var(--green-deep); display:flex; flex-direction:column;}
   .method-btn{
     display:flex; align-items:center; gap:14px; text-align:left; background:transparent; border:none;
